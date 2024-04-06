@@ -95,12 +95,25 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+             {
+              "input": "node_modules/primeng/resources/theme/md-dark-deeppurple/theme.css",
+              "bundleName": "dark",
+              "inject": false
+             },
+             {
+              "input": "node_modules/primeng/resources/theme/md-light-deeppurple/theme.css",
+              "bundleName": "light",
+              "inject": false
+             }
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "4361d28d-c43b-4ada-98a6-a903f9b91c81"
   }
 }
